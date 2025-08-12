@@ -18,6 +18,7 @@ Código
 python
 Copiar
 Editar
+## código exemplo
 usuario = input("digite o usuario: ")
 senha = input("digite a senha: ")
 
