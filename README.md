@@ -1,21 +1,19 @@
-Sistema de Login Simples
-Este script Python solicita ao usuário um nome de usuário e senha e verifica se as credenciais correspondem a um usuário autorizado.
+# Sistema Básico de Login
 
-Como usar
-Execute o script.
+## Descrição
+Este é um programa simples em Python que solicita ao usuário digitar um nome de usuário e senha. Se as credenciais estiverem corretas, o programa exibe uma mensagem de boas-vindas. Caso contrário, informa que o usuário não foi encontrado e pede para tentar novamente.
 
-Quando solicitado, digite o nome do usuário.
+## Como usar
+1. Execute o programa.
+2. Digite o nome de usuário quando solicitado.
+3. Digite a senha quando solicitado.
+4. Veja a resposta do sistema:
+   - Se o usuário for `"Guilherme"` e a senha `"1234"`, será exibida a mensagem de boas-vindas.
+   - Caso contrário, aparecerá uma mensagem de erro.
 
-Digite a senha.
+## Código
 
-Se as credenciais forem "Guilherme" e "1234", uma mensagem de boas-vindas será exibida.
-
-Caso contrário, será exibida uma mensagem informando que o usuário não foi encontrado.
-
-Código
-python
-Copiar
-Editar
+```python
 usuario = input("digite o usuario: ")
 senha = input("digite a senha: ")
 
@@ -23,11 +21,3 @@ if usuario == "Guilherme" and senha == "1234":
     print("Bem-vindo Guilherme 🔓")
 else:
     print("Usuario n encontrado 🔐. Tesnte Novamente")
-Possíveis melhorias
-Permitir múltiplas tentativas de login.
-
-Implementar verificação para mais usuários.
-
-Melhorar mensagens de erro.
-
-Usar armazenamento seguro para senhas.
